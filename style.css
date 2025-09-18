@@ -1,3 +1,24 @@
 body {
+    font-family: "Roboto", sans-serif;
     display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    color: white;
+}
+
+.header-logo{
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
