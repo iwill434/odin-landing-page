@@ -20,10 +20,6 @@ body {
     font-weight: 700;
 }
 
-.header-links {
-    display: flex;
-}
-
 ul {
     display: flex;
     list-style: none;
@@ -46,4 +42,15 @@ a {
 
 .hero, .quote, .cta {
     padding: 0 64px;
+}
+
+.footer {
+    background: #1f2937;
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
 }
