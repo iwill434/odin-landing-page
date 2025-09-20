@@ -10,7 +10,7 @@ body {
     background: #1f2937;
     display: flex;
     color: #f9faf8;
-    padding: 0 64px;
+    padding: 12px 96px;
     margin: 0;
     align-items: center;
     justify-content: space-between;
@@ -52,30 +52,61 @@ a {
 
 button {
     background: #3882f6;
-    border-radius: 4px;
+    border-radius: 8px;
     border: none;
     color: #f9faf8;
     padding: 8px 24px;
+    font-weight: 700;
 }
 
 .hero {
     background: #1f2937;
+    display: flex;
+    padding: 96px;
+    justify-content: space-between;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .hero-header {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 96px 0 0;
 }
 
 .hero-secondary {
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 12px 0;
+    padding: 0 128px 0 0;
+}
+
+.hero-button {
+    display: flex;
+    margin: 12px 0;
+    width: 102px;
+    justify-content: center;
+    align-content: center;
 }
 
 .hero-logo {
-    font-size: 24px;
+    font-size: 18px;
     color: #f9faf8;
+    background-color: #e5e7eb90;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-header {
